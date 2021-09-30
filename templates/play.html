@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">welcome!</h1>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; width: 70%; margin: 0 auto;">
+        {% for x in range(0,3): %}
+        <div
+            style="width: 150px; height: 150px; background-color: aqua; margin:10px; border-radius: 20px; border: black solid 2px;">
+        </div>
+        {% endfor %}
+    </div>
+</body>
+
+</html>
